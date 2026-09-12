@@ -1,0 +1,33 @@
+.topic-intro{padding:20px 32px;border-bottom:1px solid var(--color-border-default,#d0d7de)}
+.topic-entry{padding:28px 32px;border-bottom:1px solid var(--color-border-default,#d0d7de)}
+.topic-entry:last-of-type{border-bottom:0}
+.topic-entry-title{margin:0 0 6px!important;padding:0 0 8px!important}
+.topic-entry-meta{margin-bottom:16px}
+.knowledge-entry-layout.has-thumbnail{display:grid;grid-template-columns:240px minmax(0,1fr);gap:24px;align-items:start}
+.entry-thumbnail{width:240px;margin:0}
+.entry-thumbnail img,.topic-entry .entry-thumbnail img{width:100%;height:150px;max-height:none;object-fit:contain}
+.entry-thumbnail figcaption{line-height:1.4}
+.knowledge-entry-copy{min-width:0}
+.knowledge-entry-copy>:first-child{margin-top:0}
+.knowledge-entry-copy>:last-child{margin-bottom:0}
+.entry-links{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 16px}
+.repo-badge{--badge-color:#0969da;display:inline-flex;align-items:stretch;height:26px;overflow:hidden;border:1px solid rgba(27,31,36,.18);border-radius:5px;background:var(--color-canvas-default,#fff);box-shadow:0 1px 0 rgba(27,31,36,.04);color:var(--color-fg-default,#24292f)!important;font-size:12px;font-weight:600;line-height:24px;text-decoration:none!important;white-space:nowrap;transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
+.repo-badge:hover{border-color:var(--badge-color);box-shadow:0 2px 5px rgba(27,31,36,.12);transform:translateY(-1px)}
+.repo-badge:focus-visible{outline:2px solid var(--color-accent-fg,#0969da);outline-offset:2px}
+.repo-badge-icon{display:inline-flex;width:29px;align-items:center;justify-content:center;background:var(--badge-color);color:#fff}
+.repo-badge-icon svg{fill:currentColor}
+.repo-badge-icon .repo-badge-globe{fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round}
+.repo-badge-label{padding:0 9px;border-left:1px solid rgba(255,255,255,.18)}
+.repo-badge--project{--badge-color:#0969da}
+.repo-badge--arxiv{--badge-color:#b31b1b}
+.repo-badge--github{--badge-color:#24292f}
+.repo-badge--model{--badge-color:#d4a72c}
+.topic-pagination{display:flex;align-items:center;justify-content:center;gap:14px;padding:20px 16px;border-top:1px solid var(--color-border-default,#d0d7de)}
+.topic-pagination-status{min-width:76px;text-align:center}
+@media(max-width:544px){
+  .topic-intro,.topic-entry{padding:20px 16px}
+  .knowledge-entry-layout.has-thumbnail{display:flex;flex-direction:column;gap:16px}
+  .entry-thumbnail{width:100%}
+  .entry-thumbnail img,.topic-entry .entry-thumbnail img{height:auto;max-height:220px}
+  .topic-pagination{gap:8px}
+}

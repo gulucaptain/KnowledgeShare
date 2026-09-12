@@ -22,8 +22,8 @@
         </div>
       </div>
       {{else}}
-        {{if gt (len .Site.Taxonomies.tags) 0}}
-          {{partial "tags.html" .}}
+        {{if gt (len (.Site.GetPage "/post").Sections) 0}}
+          {{partial "topics.html" .}}
         {{end}}
       {{ end }}
       <ul>

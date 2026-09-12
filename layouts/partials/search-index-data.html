@@ -7,7 +7,8 @@
     {{- end -}}
     {{- $index = $index | append (dict
       "objectID" .File.UniqueID
-      "title" .Title
+      "title" (.Params.paper_title | default .Title)
+      "shortTitle" .Title
       "summary" (plainify $summary | htmlUnescape)
       "content" (.Plain | htmlUnescape)
       "tags" (.Params.tags | default slice)

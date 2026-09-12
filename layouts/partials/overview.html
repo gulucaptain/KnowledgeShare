@@ -5,7 +5,7 @@
 
 {{ if ne (len $pinned) 0}}
 {{ else }}
-{{ $section = where .Site.RegularPages "Section" "in" (slice "post") }}
+{{ $section = (.Site.GetPage "/post").Sections }}
 {{ $section_title = "最近更新" }}
 {{ end }}
 <div>
@@ -32,10 +32,10 @@
       </div>
     </div>
     {{ end }}
-    {{ if gt (len .Site.Taxonomies.tags) 0 }}
+    {{ if gt (len (.Site.GetPage "/post").Sections) 0 }}
     <div class="mt-4">
       <h2 class="f4 mb-0 text-normal">按主题浏览</h2>
-      {{ partial "tags.html" . }}
+      {{ partial "topics.html" . }}
     </div>
     {{ end }}
     <div class="mt-4">

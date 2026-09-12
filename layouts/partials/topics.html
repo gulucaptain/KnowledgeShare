@@ -1,0 +1,13 @@
+<div class="f6 text-gray mt-2 tags border-bottom">
+  {{- range hugo.Data.topics.topics }}
+    {{- $topic := . }}
+    {{- with site.GetPage (printf "/post/%s" $topic.slug) }}
+    <a class="muted-link mr-3" href="{{ .Permalink }}" title="{{ $topic.description }}">
+      <svg class="octicon octicon-repo" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"></path>
+      </svg>
+      {{ .Title }} <span class="Counter">{{ len .RegularPages }}</span>
+    </a>
+    {{- end }}
+  {{- end }}
+</div>

@@ -1,0 +1,44 @@
+topics:
+  - slug: wam
+    title: WAM
+    description: 世界—动作模型及其训练、推理、数据与评测方法，重点关注统一建模环境变化与机器人动作。
+    semantic_scope:
+      - World-Action Model
+      - 联合世界建模与动作生成
+      - 机器人视频预测与动作预测的统一模型
+    keywords:
+      - WAM
+      - world-action model
+      - action-conditioned world model
+      - robot action generation
+      - embodied AI
+
+  - slug: world-model
+    title: World Model
+    description: 通过预测未来状态、视觉表征或环境动态来支持规划与控制的世界模型，不要求同时生成动作。
+    semantic_scope:
+      - 潜空间世界模型
+      - 视觉动态预测
+      - 面向机器人规划的未来状态预测
+      - 多视角世界建模
+    keywords:
+      - world model
+      - latent planning
+      - future prediction
+      - cross-view modeling
+      - visual dynamics
+
+  - slug: audio-video-generation
+    title: Audio-Video Generation
+    description: 联合生成视频与声音、音画同步、跨模态交互以及音视频生成结果的高分辨率精炼。
+    semantic_scope:
+      - 原生音视频联合生成
+      - 音画同步生成
+      - 音频与视频跨模态建模
+      - 音视频生成后处理与精炼
+    keywords:
+      - audio-video generation
+      - joint audio video
+      - synchronized audio
+      - video generation
+      - multimodal generation

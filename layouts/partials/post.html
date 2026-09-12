@@ -22,15 +22,13 @@
                   </strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}"
-                    class="no-wrap">
-                    {{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</relative-time>
+                  录入于 <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}" class="no-wrap">
+                    {{ .PublishDate.Format "2006-01-02 15:04" }}</time>
 
                   {{ if .Site.Params.lastmod }}
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="{{ .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}"
-                    class="no-wrap">
-                    {{ .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</relative-time>
+                  更新于 <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" class="no-wrap">
+                    {{ .Lastmod.Format "2006-01-02 15:04" }}</time>
                   {{ end }}
                 </div>
               </div>
@@ -85,8 +83,14 @@
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
                 <article class="markdown-body entry-content container-lg">
-                  {{- .Content -}}
-                  {{ partial "website-preview.html" . }}
+                  <div class="knowledge-entry-layout{{ with .Params.thumbnail }} has-thumbnail{{ end }}">
+                    {{ partial "project-thumbnail.html" . }}
+                    <div class="knowledge-entry-copy">
+                      {{ partial "entry-links.html" . }}
+                      {{- .Content -}}
+                      {{ partial "website-preview.html" . }}
+                    </div>
+                  </div>
                 </article>
               </div>
             </div>

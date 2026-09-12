@@ -1,0 +1,12 @@
+{{- with .Params.thumbnail }}
+<figure class="project-thumbnail entry-thumbnail">
+  {{- with $.Params.thumbnail_source }}
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="查看原图">
+    <img src="{{ $.Params.thumbnail | relURL }}" alt="{{ $.Params.thumbnail_alt | default $.Title }}" loading="lazy">
+  </a>
+  {{- else }}
+  <img src="{{ $.Params.thumbnail | relURL }}" alt="{{ $.Params.thumbnail_alt | default $.Title }}" loading="lazy">
+  {{- end }}
+  {{- with $.Params.thumbnail_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{- end }}

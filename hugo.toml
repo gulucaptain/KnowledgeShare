@@ -24,7 +24,8 @@ enableRobotsTXT = true
   enableSearch = true
   rss = false
   lastmod = true
-  custom_css = ['css/website-preview.css', 'css/search.css']
+  custom_css = ['css/website-preview.css', 'css/search.css', 'css/topic.css']
+  topicPageSize = 5
   defer_custom_js = ['js/website-preview.js']
 
 [frontmatter]
