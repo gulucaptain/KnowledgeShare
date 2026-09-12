@@ -1,0 +1,40 @@
+baseURL = 'https://gulucaptain.github.io/KnowledgeShare/'
+locale = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = 'ElephantFlow'
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = 'tags'
+
+[params]
+  author = 'ElephantFlow'
+  github = 'gulucaptain'
+  profileName = 'NUS'
+  description = ''
+  tagline = '更新记录与主题归档'
+  avatar = 'images/35996667.jpeg'
+  favicon = 'images/github-mark.png'
+  headerIcon = 'images/github-mark-white.png'
+  enableGitalk = false
+  enableSearch = false
+  rss = false
+  lastmod = true
+  custom_css = ['css/website-preview.css']
+  defer_custom_js = ['js/website-preview.js']
+
+[frontmatter]
+  lastmod = ['lastmod', 'date']
+
+[markup.highlight]
+  noClasses = false
+
+[outputs]
+  home = ['HTML']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']

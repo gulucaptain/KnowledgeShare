@@ -1,0 +1,15 @@
+{{ with .Params.website }}
+  {{ if strings.HasPrefix . "https://" }}
+  <details class="website-preview Box mt-4" data-website-preview>
+    <summary class="Box-header d-flex flex-items-center flex-justify-between flex-wrap">
+      <span class="f6 text-gray">网站预览 · {{ (urls.Parse .).Host }}</span>
+      <span class="f6"><span class="preview-closed">展开预览 ▾</span><span class="preview-open">收起预览 ▴</span></span>
+    </summary>
+    <iframe data-src="{{ . }}" title="{{ $.Title }} 网站预览" loading="lazy"
+      sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+      referrerpolicy="no-referrer"></iframe>
+    <p class="f6 text-gray px-3 py-2 mb-0">窗口内可滚动浏览。无法加载时，<a href="{{ . }}" target="_blank" rel="noopener noreferrer">在新窗口打开 ↗</a>。</p>
+    <noscript><p class="px-3 py-2">启用 JavaScript 可加载小窗，或使用上方原网站链接。</p></noscript>
+  </details>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,8 @@
+.website-preview{overflow:hidden}
+.website-preview .Box-header{gap:10px;cursor:pointer;margin:0;border:0}
+.website-preview summary:focus-visible{outline:2px solid #0969da;outline-offset:-2px}
+.website-preview .preview-open,.website-preview[open] .preview-closed{display:none}
+.website-preview[open] .preview-open{display:inline}
+.website-preview iframe{display:block;width:100%;height:280px;border:0;border-top:1px solid var(--color-border-default,#d0d7de);background:#fff}
+.tags>a{display:inline-block;white-space:nowrap;padding:4px 0}
+@media(max-width:544px){.website-preview iframe{height:240px}.website-preview .Box-header{align-items:flex-start!important}}

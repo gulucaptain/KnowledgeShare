@@ -1,0 +1,13 @@
+.runtime/
+.halo/
+downloads/
+vendor/
+backups/
+.DS_Store
+_site/
+.generated-files.json
+__pycache__/
+public/
+.preview/
+.hugo_build.lock
+resources/
