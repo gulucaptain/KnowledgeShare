@@ -194,3 +194,25 @@ body {
 ul {
   padding-left: 1em;
 }
+
+.activity-scroll {
+  max-height: 270px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding-right: 8px;
+}
+
+.activity-scroll:focus-visible {
+  outline: 2px solid var(--color-accent-fg, #0969da);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .activity-scroll {
+    max-height: 300px;
+    padding-right: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+}
