@@ -1,0 +1,15 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "项目概览图" -}}
+{{- $source := .Get "source" -}}
+<figure class="project-thumbnail">
+  {{- if $source }}
+  <a href="{{ $source }}" target="_blank" rel="noopener noreferrer" title="查看原图">
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+  </a>
+  {{- else }}
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+  {{- end }}
+  {{- with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>

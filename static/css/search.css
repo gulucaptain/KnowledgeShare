@@ -1,0 +1,14 @@
+.search-summary{display:table;width:100%}
+.search-clear{color:var(--color-fg-muted,#57606a);cursor:pointer}
+.search-clear:hover{color:var(--color-accent-fg,#0969da)}
+.search-results-list{margin:0;padding:0;list-style:none}
+.search-results-list li{list-style:none}
+.search-results-list mark{padding:0 2px;color:inherit;background:var(--color-search-keyword-hl,#fff8c5);border-radius:2px}
+.search-results-list p{line-height:1.6}
+.search-result-tags{word-break:break-word}
+.search-empty{text-align:center}
+@media(max-width:767px){
+  #header-search{width:100%}
+  .search-summary{display:flex;align-items:center;gap:16px}
+  .search-summary .TableObject-item--primary{flex:1}
+}

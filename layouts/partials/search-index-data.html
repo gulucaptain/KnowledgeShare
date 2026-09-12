@@ -1,0 +1,20 @@
+{{- $index := slice -}}
+{{- range where site.RegularPages "Section" "post" -}}
+  {{- if and (not .Draft) (not .Params.private) (ne .Params.searchable false) -}}
+    {{- $summary := .Summary -}}
+    {{- with .Params.summary -}}
+      {{- $summary = . -}}
+    {{- end -}}
+    {{- $index = $index | append (dict
+      "objectID" .File.UniqueID
+      "title" .Title
+      "summary" (plainify $summary | htmlUnescape)
+      "content" (.Plain | htmlUnescape)
+      "tags" (.Params.tags | default slice)
+      "permalink" .Permalink
+      "relpermalink" .RelPermalink
+      "lastmod" .Lastmod.UTC.Unix
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $index -}}

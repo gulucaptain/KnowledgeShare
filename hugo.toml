@@ -21,10 +21,10 @@ enableRobotsTXT = true
   favicon = 'images/github-mark.png'
   headerIcon = 'images/github-mark-white.png'
   enableGitalk = false
-  enableSearch = false
+  enableSearch = true
   rss = false
   lastmod = true
-  custom_css = ['css/website-preview.css']
+  custom_css = ['css/website-preview.css', 'css/search.css']
   defer_custom_js = ['js/website-preview.js']
 
 [frontmatter]
@@ -34,7 +34,7 @@ enableRobotsTXT = true
   noClasses = false
 
 [outputs]
-  home = ['HTML']
+  home = ['HTML', 'JSON']
   section = ['HTML']
   taxonomy = ['HTML']
   term = ['HTML']
