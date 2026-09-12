@@ -57,3 +57,89 @@ topics:
       - video dataset
       - multimodal evaluation
       - audio visual understanding
+
+  - slug: embodied-ai-icl
+    title: Embodied AI ICL
+    description: 通过演示、视频或上下文提示，让具身模型在不更新参数或极少适配的情况下理解并执行新任务。
+    semantic_scope:
+      - 机器人模仿学习中的上下文学习
+      - 以人类或机器人演示作为任务提示
+      - 具身基础模型的单样本与少样本适配
+      - 开放任务上的上下文泛化
+    keywords:
+      - embodied AI
+      - in-context learning
+      - imitation learning
+      - one-shot robot learning
+      - human demonstration
+
+  - slug: r4r-auto-eval
+    title: R4R-Auto-Eval
+    description: 面向机器人策略与执行轨迹的自动化评测、过程审计、奖励建模和故障检测方法。
+    semantic_scope:
+      - 机器人执行过程的细粒度自动评测
+      - 过程奖励模型与轨迹审计
+      - 机器人故障检测和执行监控
+      - 基于视觉或程序的机器人评测
+    keywords:
+      - robot auto evaluation
+      - robotic auditing
+      - process reward model
+      - failure detection
+      - execution monitoring
+
+  - slug: video-generation-icl
+    title: Video Generation ICL
+    description: 利用上下文视频、参考图像或视觉示例控制视频生成、编辑与运动迁移的方法。
+    semantic_scope:
+      - 视频生成中的上下文学习
+      - 参考视频驱动的运动与镜头迁移
+      - 无训练样本配对的视频重构与编辑
+    keywords:
+      - video generation
+      - in-context generation
+      - motion transfer
+      - video reimagination
+      - reference video
+
+  - slug: camera-trajectory-understanding
+    title: Camera Trajectory Understanding
+    description: 视频中的相机运动、相机位姿、轨迹标注、识别与评测相关的数据和方法。
+    semantic_scope:
+      - 动态视频的相机位姿估计
+      - 相机运动分类、描述与理解
+      - 相机轨迹数据集与评测基准
+    keywords:
+      - camera trajectory
+      - camera motion
+      - camera pose
+      - structure from motion
+      - video understanding
+
+  - slug: code-as-policy
+    title: Code-As-Policy
+    description: 让语言模型以程序生成、工具调用或可执行策略的方式控制和评测机器人。
+    semantic_scope:
+      - 语言模型生成机器人控制程序
+      - 代码作为机器人策略或动作接口
+      - 具身智能的可执行评测框架
+    keywords:
+      - code as policy
+      - robot code generation
+      - physical AI evaluation
+      - executable policy
+      - robot agent
+
+  - slug: embodied-harness
+    title: Embodied Harness
+    description: 连接通用视觉语言模型与具体机器人本体的轻量控制接口、动作解释器和执行框架。
+    semantic_scope:
+      - 通用模型到机器人动作空间的适配层
+      - 具身模型的动作接口与控制支架
+      - 跨机器人本体的语义动作表达
+    keywords:
+      - embodied harness
+      - VLM robot control
+      - action interface
+      - embodiment adapter
+      - robot foundation model
