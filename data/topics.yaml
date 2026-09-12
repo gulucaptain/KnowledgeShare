@@ -143,3 +143,17 @@ topics:
       - action interface
       - embodiment adapter
       - robot foundation model
+
+  - slug: camera-noise
+    title: CameraNoise
+    description: 通过优化扩散噪声、潜变量或采样轨迹，在推理阶段改善视频生成的可控性与内容对齐。
+    semantic_scope:
+      - 视频扩散模型的测试时噪声优化
+      - 奖励引导的潜变量与采样轨迹优化
+      - 无需更新生成模型参数的推理时增强
+    keywords:
+      - CameraNoise
+      - noise optimization
+      - test-time scaling
+      - latent optimization
+      - text-to-video generation
