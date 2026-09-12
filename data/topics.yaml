@@ -42,3 +42,18 @@ topics:
       - synchronized audio
       - video generation
       - multimodal generation
+
+  - slug: audio-video-evaluation
+    title: Audio-Video Evaluation
+    description: 音视频理解与生成系统的评测方法、数据集、基准和指标，关注视觉、音频与跨模态一致性。
+    semantic_scope:
+      - 音视频模型评测
+      - 音画理解与跨模态一致性评估
+      - 用于音视频评测的数据集与基准
+      - 音视频生成质量评估
+    keywords:
+      - audio-video evaluation
+      - audio visual benchmark
+      - video dataset
+      - multimodal evaluation
+      - audio visual understanding
