@@ -1,7 +1,7 @@
 baseURL = 'https://gulucaptain.github.io/KnowledgeShare/'
 locale = 'zh-CN'
 defaultContentLanguage = 'zh'
-title = 'ElephantFlow'
+title = 'Gulucaptain'
 hasCJKLanguage = true
 enableRobotsTXT = true
 
@@ -12,7 +12,7 @@ enableRobotsTXT = true
   tag = 'tags'
 
 [params]
-  author = 'ElephantFlow'
+  author = 'Gulucaptain'
   github = 'gulucaptain'
   profileName = 'NUS'
   description = ''

@@ -1,4 +1,4 @@
-# ElephantFlow 内容管理规则
+# Gulucaptain 内容管理规则
 
 新增论文、网页或短记录前，先读取 `data/topics.yaml`，根据标题、摘要、方法、任务与应用场景判断其语义是否落入现有主题的 `description` 或 `semantic_scope`。
 
