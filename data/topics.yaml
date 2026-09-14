@@ -157,3 +157,18 @@ topics:
       - test-time scaling
       - latent optimization
       - text-to-video generation
+
+  - slug: robot-manipulation
+    title: Robot Manipulation
+    description: 面向机械臂与其他关节机器人的操作执行方法与工具，关注逆运动学、任务空间控制、多目标约束和运动求解。
+    semantic_scope:
+      - 机械臂逆运动学与末端执行器控制
+      - 从任务空间目标到关节速度或构型的求解
+      - 多任务与运动约束下的机器人操作控制
+      - 面向操作执行的运动学与优化工具
+    keywords:
+      - robot manipulation
+      - inverse kinematics
+      - end-effector control
+      - motion control
+      - quadratic programming
