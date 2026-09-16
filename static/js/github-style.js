@@ -13,14 +13,14 @@ let contributions;
   contributions = JSON.parse(dom.getAttribute('data'));
   let year = 0;
   for (const item of contributions) {
-    item.publishDate = decodeURI(item.publishDate).replace(' ', 'T');
-    item.date = new Date(item.publishDate);
+    item.date = new Date(decodeURI(item.updatedDate || item.publishDate).replace(' ', 'T'));
     if (item.date.getFullYear() > year) {
       year = item.date.getFullYear();
     }
     item.title = decodeURI(item.title);
   }
 
+  contributions.sort((a, b) => b.date - a.date);
   yearList();
   switchYear(year.toString());
 })();
@@ -49,7 +49,7 @@ function switchYear(year) {
       }
     }
   }
-  posts.sort((a, b) => { return b - a });
+  posts.sort((a, b) => b.date - a.date);
   document.querySelector('#posts-activity').innerHTML = '';
   for (const time of ms) {
     const node = document.createElement('div');
@@ -81,7 +81,7 @@ function monthly(year, month, posts) {
       class="col-8 css-truncate css-truncate-target lh-condensed width-fit flex-auto min-width-0">
       <a href="${post.link}">${post.title}</a>
     </div>
-    <time  title="This post was made on ${months[post.date.getMonth()]} ${post.date.getDate()}"
+    <time  title="最近更新于 ${months[post.date.getMonth()]} ${post.date.getDate()}"
       class="col-2 text-right f6 text-gray-light pt-1">
       ${months[post.date.getMonth()]} ${post.date.getDate()}
     </time>
@@ -107,7 +107,7 @@ function monthly(year, month, posts) {
           <details class="Details-element details-reset" open>
             <summary role="button" class="btn-link f4 muted-link no-underline lh-condensed width-full">
               <span class="color-text-primary ws-normal text-left">
-                Created ${monthPosts.length} post${monthPosts.length > 1 ? 's' : ''}
+                更新 ${monthPosts.length} 条内容
               </span>
               <span class="d-inline-block float-right color-icon-secondary">
                 <span class="Details-content--open float-right">
@@ -156,11 +156,10 @@ function yearList() {
 }
 
 function graph(year, posts, startDate, endDate) {
-  const postsStr = posts.length === 1 ? "post" : "posts";
   if (year === now.getFullYear().toString()) {
-    document.querySelector('#posts-count').innerText = `${posts.length}  ${postsStr} in the last year`;
+    document.querySelector('#posts-count').innerText = `过去一年更新了 ${posts.length} 条内容`;
   } else {
-    document.querySelector('#posts-count').innerText = `${posts.length}  ${postsStr} in ${year}`;
+    document.querySelector('#posts-count').innerText = `${year} 年更新了 ${posts.length} 条内容`;
   }
 
   let html = ``;

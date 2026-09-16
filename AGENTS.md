@@ -4,7 +4,7 @@
 
 - 与现有主题核心研究问题一致时，加入 `content/post/<topic-slug>/`，不要因为出现新的模型名或次要标签而创建新主题。
 - 只共享宽泛背景词、但核心任务明显不同的内容，应建立新主题，并同步添加 `data/topics.yaml` 条目和 `content/post/<topic-slug>/_index.md`。
-- 每条资料使用独立 Markdown 文件；`date` 是精确到分钟的录入时间，主题页会自动按 `date` 倒序排列。
+- 每条资料使用独立 Markdown 文件；`date` 保留首次录入时间，`lastmod` 记录最近一次实质内容更新，两者精确到分钟。主题页与首页更新动态按 `lastmod` 倒序排列；修改已有条目时同步更新条目及主题的 `lastmod`，不要伪造新的首次录入时间。
 - 论文条目将完整论文标题写入 `paper_title`，作为主题页中的子模块标题；`title` 保留模型或项目简称。非论文资料可省略 `paper_title`。
 - 将官方来源分别写入 `project_url`、`paper_url`、`code_url`、`model_url`；页面会自动生成 GitHub 风格的链接按钮，只填写确实存在的链接，不在正文中重复罗列。
 - 新增或修改资料后，将所属主题 `_index.md` 的 `lastmod` 更新为最新时间。
