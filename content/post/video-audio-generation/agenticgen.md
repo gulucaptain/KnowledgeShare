@@ -3,9 +3,10 @@ title: "AgenticGen"
 date: 2026-09-16T20:53:00+08:00
 lastmod: 2026-09-16T20:53:00+08:00
 summary: "将广告视频生成拆为策略选择和草稿生成，用线上业务反馈与质量奖励优化两个推理阶段。"
-tags: ["Advertising Video Generation", "ByteDance", "Agentic Generation", "Reinforcement Learning"]
+tags: ["Video & Audio Generation", "Advertising Video Generation", "ByteDance", "Agentic Generation", "Reinforcement Learning"]
 paper_title: "AgenticGen: Reward-Guided Agentic Video Generation for Advertising"
 paper_url: "https://arxiv.org/abs/2609.09187"
+aliases: ["/post/advertising-video-generation/agenticgen/"]
 draft: false
 ---
 

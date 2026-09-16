@@ -3,13 +3,14 @@ title: "Inspect Robots"
 date: 2026-09-12T20:59:00+08:00
 lastmod: 2026-09-12T20:59:00+08:00
 summary: "面向真实与仿真机器人的开源 Physical AI 评测框架。"
-tags: ["Code-As-Policy", "Physical AI", "Evaluation Framework"]
+tags: ["Robot Agents", "Code-As-Policy", "Physical AI", "Evaluation Framework"]
 website: "https://github.com/robocurve/inspect-robots"
 code_url: "https://github.com/robocurve/inspect-robots"
 thumbnail: "images/code-as-policy/inspect-robots-opengraph.png"
 thumbnail_alt: "Inspect Robots GitHub 仓库预览图"
 thumbnail_caption: "Inspect Robots 官方 GitHub 仓库预览"
 thumbnail_source: "https://github.com/robocurve/inspect-robots"
+aliases: ["/post/code-as-policy/inspect-robots/"]
 draft: false
 ---
 

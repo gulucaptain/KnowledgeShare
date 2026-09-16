@@ -28,20 +28,42 @@ topics:
       - cross-view modeling
       - visual dynamics
 
-  - slug: audio-video-generation
-    title: Audio-Video Generation
-    description: 联合生成视频与声音、音画同步、跨模态交互以及音视频生成结果的高分辨率精炼。
+  - slug: video-audio-generation
+    title: Video & Audio Generation
+    description: 视频与音视频生成、参考条件控制、推理时优化，以及广告等应用中的生成方法。
     semantic_scope:
-      - 原生音视频联合生成
-      - 音画同步生成
-      - 音频与视频跨模态建模
-      - 音视频生成后处理与精炼
+    - 原生音视频联合生成
+    - 音画同步生成
+    - 音频与视频跨模态建模
+    - 音视频生成后处理与精炼
+    - 视频生成中的上下文学习
+    - 参考视频驱动的运动与镜头迁移
+    - 无训练样本配对的视频重构与编辑
+    - 视频扩散模型的测试时噪声优化
+    - 奖励引导的潜变量与采样轨迹优化
+    - 无需更新生成模型参数的推理时增强
+    - 广告视频创意与生成
+    - 商品条件下的智能体视频生成
+    - 广告业务反馈驱动的策略优化
     keywords:
-      - audio-video generation
-      - joint audio video
-      - synchronized audio
-      - video generation
-      - multimodal generation
+    - audio-video generation
+    - joint audio video
+    - synchronized audio
+    - video generation
+    - multimodal generation
+    - in-context generation
+    - motion transfer
+    - video reimagination
+    - reference video
+    - CameraNoise
+    - noise optimization
+    - test-time scaling
+    - latent optimization
+    - text-to-video generation
+    - advertising video generation
+    - agentic video generation
+    - product-conditioned generation
+    - business feedback
 
   - slug: audio-video-evaluation
     title: Audio-Video Evaluation
@@ -88,20 +110,6 @@ topics:
       - failure detection
       - execution monitoring
 
-  - slug: video-generation-icl
-    title: Video Generation ICL
-    description: 利用上下文视频、参考图像或视觉示例控制视频生成、编辑与运动迁移的方法。
-    semantic_scope:
-      - 视频生成中的上下文学习
-      - 参考视频驱动的运动与镜头迁移
-      - 无训练样本配对的视频重构与编辑
-    keywords:
-      - video generation
-      - in-context generation
-      - motion transfer
-      - video reimagination
-      - reference video
-
   - slug: camera-trajectory-understanding
     title: Camera Trajectory Understanding
     description: 视频中的相机运动、相机位姿、轨迹标注、识别与评测相关的数据和方法。
@@ -116,86 +124,47 @@ topics:
       - structure from motion
       - video understanding
 
-  - slug: code-as-policy
-    title: Code-As-Policy
-    description: 让语言模型以程序生成、工具调用或可执行策略的方式控制和评测机器人。
+  - slug: robot-agents
+    title: Robot Agents
+    description: 通过代码策略、语义动作接口和执行框架，将通用模型连接到机器人感知、决策与控制。
     semantic_scope:
-      - 语言模型生成机器人控制程序
-      - 代码作为机器人策略或动作接口
-      - 具身智能的可执行评测框架
+    - 语言模型生成机器人控制程序
+    - 代码作为机器人策略或动作接口
+    - 具身智能的可执行评测框架
+    - 通用模型到机器人动作空间的适配层
+    - 具身模型的动作接口与控制支架
+    - 跨机器人本体的语义动作表达
     keywords:
-      - code as policy
-      - robot code generation
-      - physical AI evaluation
-      - executable policy
-      - robot agent
-
-  - slug: embodied-harness
-    title: Embodied Harness
-    description: 连接通用视觉语言模型与具体机器人本体的轻量控制接口、动作解释器和执行框架。
-    semantic_scope:
-      - 通用模型到机器人动作空间的适配层
-      - 具身模型的动作接口与控制支架
-      - 跨机器人本体的语义动作表达
-    keywords:
-      - embodied harness
-      - VLM robot control
-      - action interface
-      - embodiment adapter
-      - robot foundation model
-
-  - slug: camera-noise
-    title: CameraNoise
-    description: 通过优化扩散噪声、潜变量或采样轨迹，在推理阶段改善视频生成的可控性与内容对齐。
-    semantic_scope:
-      - 视频扩散模型的测试时噪声优化
-      - 奖励引导的潜变量与采样轨迹优化
-      - 无需更新生成模型参数的推理时增强
-    keywords:
-      - CameraNoise
-      - noise optimization
-      - test-time scaling
-      - latent optimization
-      - text-to-video generation
+    - code as policy
+    - robot code generation
+    - physical AI evaluation
+    - executable policy
+    - robot agent
+    - embodied harness
+    - VLM robot control
+    - action interface
+    - embodiment adapter
+    - robot foundation model
 
   - slug: robot-manipulation
     title: Robot Manipulation
-    description: 面向机械臂与其他关节机器人的操作执行方法与工具，关注逆运动学、任务空间控制、多目标约束和运动求解。
+    description: 机械臂与灵巧手操作，涵盖运动学控制、双手协同、视触觉学习及操作数据与基准。
     semantic_scope:
-      - 机械臂逆运动学与末端执行器控制
-      - 从任务空间目标到关节速度或构型的求解
-      - 多任务与运动约束下的机器人操作控制
-      - 面向操作执行的运动学与优化工具
+    - 机械臂逆运动学与末端执行器控制
+    - 从任务空间目标到关节速度或构型的求解
+    - 多任务与运动约束下的机器人操作控制
+    - 面向操作执行的运动学与优化工具
+    - 多指灵巧手与双手协同操作
+    - 视觉与触觉融合的灵巧操作学习
+    - 跨灵巧手本体的数据与仿真基准
     keywords:
-      - robot manipulation
-      - inverse kinematics
-      - end-effector control
-      - motion control
-      - quadratic programming
-
-  - slug: dexterous-manipulation
-    title: Dexterous Manipulation
-    description: 面向多指灵巧手的单手与双手操作、视触觉学习、跨本体数据集和操作能力评测基准。
-    semantic_scope:
-      - 多指灵巧手与双手协同操作
-      - 视觉与触觉融合的灵巧操作学习
-      - 跨灵巧手本体的数据与仿真基准
-    keywords:
-      - dexterous manipulation
-      - dexterous hand
-      - visuo-tactile
-      - bimanual manipulation
-      - cross-embodiment benchmark
-
-  - slug: advertising-video-generation
-    title: Advertising Video Generation
-    description: 面向广告创意和商品条件视频生成的策略、生成流程与线上业务反馈优化。
-    semantic_scope:
-      - 广告视频创意与生成
-      - 商品条件下的智能体视频生成
-      - 广告业务反馈驱动的策略优化
-    keywords:
-      - advertising video generation
-      - agentic video generation
-      - product-conditioned generation
-      - business feedback
+    - robot manipulation
+    - inverse kinematics
+    - end-effector control
+    - motion control
+    - quadratic programming
+    - dexterous manipulation
+    - dexterous hand
+    - visuo-tactile
+    - bimanual manipulation
+    - cross-embodiment benchmark

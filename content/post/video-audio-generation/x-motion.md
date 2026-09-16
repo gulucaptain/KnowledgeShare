@@ -3,13 +3,14 @@ title: "X-MoTion"
 date: 2026-09-12T20:55:00+08:00
 lastmod: 2026-09-12T20:55:00+08:00
 summary: "用参考视频的运动和镜头语义重构另一张图像中的视频内容。"
-tags: ["Video Generation ICL", "Motion Transfer", "Video Reimagination"]
+tags: ["Video & Audio Generation", "Video Generation ICL", "Motion Transfer", "Video Reimagination"]
 website: "https://byteaigc.github.io/X-MoTion/"
 project_url: "https://byteaigc.github.io/X-MoTion/"
 thumbnail: "images/video-generation-icl/x-motion-teaser.jpg"
 thumbnail_alt: "X-MoTion 视频重构演示画面"
 thumbnail_caption: "X-MoTion 官方演示视频截帧"
 thumbnail_source: "https://byteaigc.github.io/X-MoTion/assets_x/teaser/all.mp4"
+aliases: ["/post/video-generation-icl/x-motion/"]
 draft: false
 ---
 

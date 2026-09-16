@@ -3,13 +3,14 @@ title: "GPT-6 Astra 机器人手臂评测"
 date: 2026-09-12T21:00:00+08:00
 lastmod: 2026-09-12T21:00:00+08:00
 summary: "记录 GPT-6 Astra 在粗粒度放置与精密插入任务之间的明显表现差异。"
-tags: ["Code-As-Policy", "Robot Evaluation", "GPT-6 Astra"]
+tags: ["Robot Agents", "Code-As-Policy", "Robot Evaluation", "GPT-6 Astra"]
 website: "https://www.alphalab.site/gpt-6-astra-robot-arm-evaluation"
 project_url: "https://www.alphalab.site/gpt-6-astra-robot-arm-evaluation"
 thumbnail: "images/code-as-policy/gpt-6-astra-evaluation.png"
 thumbnail_alt: "GPT-6 Astra 机器人手臂评测文章封面"
 thumbnail_caption: "AlphaLab 评测文章封面"
 thumbnail_source: "https://www.alphalab.site/gpt-6-astra-robot-arm-evaluation"
+aliases: ["/post/code-as-policy/gpt-6-astra-robot-arm-evaluation/"]
 draft: false
 ---
 

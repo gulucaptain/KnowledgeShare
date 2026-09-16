@@ -1,13 +1,16 @@
 ---
-title: "Robot Manipulation"
-date: 2026-09-14T14:23:00+08:00
-lastmod: 2026-09-14T14:23:00+08:00
-summary: "面向机械臂与关节机器人的逆运动学、任务空间控制和操作执行。"
-tags: ["Robot Manipulation", "Inverse Kinematics", "Motion Control"]
+title: Robot Manipulation
+date: 2026-09-14 14:23:00+08:00
+lastmod: 2026-09-16 20:05:00+08:00
+summary: 机械臂与灵巧手操作，涵盖运动学控制、双手协同、视触觉学习及操作数据与基准。
+tags:
+- Robot Manipulation
 topic: true
-topic_id: "robot-manipulation"
-layout: "topic"
+topic_id: robot-manipulation
+layout: topic
 draft: false
+aliases:
+- /post/dexterous-manipulation/
 ---
 
-面向机械臂与其他关节机器人的操作执行，整理逆运动学、任务空间控制、多目标约束与运动求解方法。
+机械臂与灵巧手操作，涵盖运动学控制、双手协同、视触觉学习及操作数据与基准。

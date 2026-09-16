@@ -3,7 +3,7 @@ title: "Bench2Dex"
 date: 2026-09-16T20:05:00+08:00
 lastmod: 2026-09-16T20:05:00+08:00
 summary: "覆盖 12 种灵巧手、26 个双手操作任务与约 1,300 条示教的视触觉仿真基准，统一接触表征并评测策略泛化。"
-tags: ["Dexterous Manipulation", "Visuo-Tactile", "Bimanual Manipulation", "Benchmark"]
+tags: ["Robot Manipulation", "Dexterous Manipulation", "Visuo-Tactile", "Bimanual Manipulation", "Benchmark"]
 website: "https://bench2dex.github.io/"
 paper_title: "Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands"
 project_url: "https://bench2dex.github.io/"
@@ -14,6 +14,7 @@ thumbnail: "images/dexterous-manipulation/bench2dex-overview.png"
 thumbnail_alt: "Bench2Dex 概览：多模态采集、遥操作系统、域随机化及 12 种机器人本体"
 thumbnail_caption: "Bench2Dex 官方基准概览图"
 thumbnail_source: "https://bench2dex.github.io/assets/img/figures/overview.png"
+aliases: ["/post/dexterous-manipulation/bench2dex/"]
 draft: false
 ---
 

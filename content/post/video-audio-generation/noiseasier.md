@@ -3,7 +3,7 @@ title: "NoisEasier"
 date: 2026-09-12T21:35:00+08:00
 lastmod: 2026-09-12T21:35:00+08:00
 summary: "在不修改视频模型参数的情况下，用奖励梯度优化完整随机采样轨迹。"
-tags: ["CameraNoise", "Test-Time Scaling", "Text-to-Video"]
+tags: ["Video & Audio Generation", "CameraNoise", "Test-Time Scaling", "Text-to-Video"]
 website: "https://yujiangpu20.github.io/noiseasier/"
 paper_title: "NoisEasier: Test-Time Noise Optimization for Text-to-Video Generation"
 project_url: "https://yujiangpu20.github.io/noiseasier/"
@@ -13,6 +13,7 @@ thumbnail: "images/camera-noise/noiseasier-result.jpg"
 thumbnail_alt: "NoisEasier 奖励引导噪声优化后的视频生成画面"
 thumbnail_caption: "NoisEasier 官方生成结果视频截帧"
 thumbnail_source: "https://yujiangpu20.github.io/noiseasier/videos/gallery/VBench/sunrise_after.mp4"
+aliases: ["/post/camera-noise/noiseasier/"]
 draft: false
 ---
 

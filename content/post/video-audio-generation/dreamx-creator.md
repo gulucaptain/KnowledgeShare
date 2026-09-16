@@ -3,7 +3,7 @@ title: "DreamX-Creator"
 date: 2026-09-12T19:55:00+08:00
 lastmod: 2026-09-12T19:55:00+08:00
 summary: "以 7B 生成器为核心的原生音视频联合生成与单步 2K 精炼系统。"
-tags: ["Audio-Video Generation", "Video Generation", "Multimodal Generation"]
+tags: ["Video & Audio Generation", "Audio-Video Generation", "Video Generation", "Multimodal Generation"]
 website: "https://github.com/AMAP-ML/DreamX-Creator"
 paper_title: "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution"
 paper_url: "https://arxiv.org/abs/2608.31106"
@@ -12,6 +12,7 @@ thumbnail: "images/audio-video-generation/dreamx-creator-teaser.png"
 thumbnail_alt: "DreamX-Creator 的原生音视频生成样例与 2K 精炼效果"
 thumbnail_caption: "DreamX-Creator 官方展示图"
 thumbnail_source: "https://github.com/AMAP-ML/DreamX-Creator/blob/main/dreamx-creator_teaser.png"
+aliases: ["/post/audio-video-generation/dreamx-creator/"]
 draft: false
 ---
 

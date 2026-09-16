@@ -3,7 +3,7 @@ title: "Show-Harness"
 date: 2026-09-12T21:01:00+08:00
 lastmod: 2026-09-16T19:38:00+08:00
 summary: "以离散语义动作和闭环反馈让 VLM 直接控制机器人，支持零样本部署、轻量微调与 GUI 示教。"
-tags: ["Embodied Harness", "Code-As-Policy", "VLM", "Robot Control"]
+tags: ["Robot Agents", "Embodied Harness", "Code-As-Policy", "VLM", "Robot Control"]
 website: "https://showlab.github.io/Show-Harness/"
 paper_title: "Show-Harness: Just a VLM Agent Can Play Robots"
 project_url: "https://showlab.github.io/Show-Harness/"
@@ -14,6 +14,7 @@ thumbnail: "images/embodied-harness/show-harness-overview.svg"
 thumbnail_alt: "Show-Harness 通过语义动作接口连接视觉语言模型与机器人"
 thumbnail_caption: "Show-Harness 官方系统概览图"
 thumbnail_source: "https://showlab.github.io/Show-Harness/assets/images/overview.svg"
+aliases: ["/post/embodied-harness/show-harness/"]
 draft: false
 ---
 
