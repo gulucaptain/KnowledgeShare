@@ -172,3 +172,17 @@ topics:
       - end-effector control
       - motion control
       - quadratic programming
+
+  - slug: dexterous-manipulation
+    title: Dexterous Manipulation
+    description: 面向多指灵巧手的单手与双手操作、视触觉学习、跨本体数据集和操作能力评测基准。
+    semantic_scope:
+      - 多指灵巧手与双手协同操作
+      - 视觉与触觉融合的灵巧操作学习
+      - 跨灵巧手本体的数据与仿真基准
+    keywords:
+      - dexterous manipulation
+      - dexterous hand
+      - visuo-tactile
+      - bimanual manipulation
+      - cross-embodiment benchmark
