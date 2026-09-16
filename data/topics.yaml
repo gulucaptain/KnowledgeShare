@@ -186,3 +186,16 @@ topics:
       - visuo-tactile
       - bimanual manipulation
       - cross-embodiment benchmark
+
+  - slug: advertising-video-generation
+    title: Advertising Video Generation
+    description: 面向广告创意和商品条件视频生成的策略、生成流程与线上业务反馈优化。
+    semantic_scope:
+      - 广告视频创意与生成
+      - 商品条件下的智能体视频生成
+      - 广告业务反馈驱动的策略优化
+    keywords:
+      - advertising video generation
+      - agentic video generation
+      - product-conditioned generation
+      - business feedback
