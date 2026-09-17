@@ -168,3 +168,17 @@ topics:
     - visuo-tactile
     - bimanual manipulation
     - cross-embodiment benchmark
+
+  - slug: reinforcement-learning
+    title: Reinforcement Learning
+    description: 强化学习的策略优化、奖励学习与生成式策略训练，涵盖连续控制和通用算法方法。
+    semantic_scope:
+      - 策略梯度与同策略或离策略优化
+      - 扩散和流模型的强化学习策略
+      - 奖励驱动的策略学习与连续控制
+    keywords:
+      - reinforcement learning
+      - policy optimization
+      - policy gradient
+      - flow matching
+      - diffusion policy
