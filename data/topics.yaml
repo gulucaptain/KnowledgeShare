@@ -182,3 +182,27 @@ topics:
       - policy gradient
       - flow matching
       - diffusion policy
+
+  - slug: ai-economics
+    title: AI Economics
+    description: 研究 AI 对经济增长、就业、工资与收入分配的影响。
+    semantic_scope:
+      - AI 与劳动市场
+      - 自动化、任务增强及收入分配
+      - AI 经济情景建模
+
+  - slug: agent-harness
+    title: Agent Harness
+    description: 通用智能体的运行框架、上下文管理、工具执行及自我改进方法。
+    semantic_scope:
+      - 智能体工作流与持久化状态
+      - 上下文工程与评估反馈
+      - Harness 优化及自我改进
+
+  - slug: stochastic-processes
+    title: Stochastic Processes
+    description: 随机过程、随机微分方程、随机流及其对偶理论。
+    semantic_scope:
+      - 白噪声驱动的随机微分方程
+      - 随机流的存在唯一性与正则性
+      - 随机过程的对偶与自对偶
