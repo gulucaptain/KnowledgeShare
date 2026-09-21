@@ -206,3 +206,17 @@ topics:
       - 白噪声驱动的随机微分方程
       - 随机流的存在唯一性与正则性
       - 随机过程的对偶与自对偶
+
+  - slug: camera-centric-generation
+    title: Camera-Centric Generation
+    description: 以相机参数、视角和摄影语言为控制条件的视觉理解与生成方法。
+    semantic_scope:
+      - 图像生成中的相机视角与构图控制
+      - 相机参数理解与跨视角生成
+      - 面向空间想象和世界探索的相机条件模型
+    keywords:
+      - camera-centric generation
+      - viewpoint control
+      - camera parameters
+      - cross-view generation
+      - spatial intelligence
