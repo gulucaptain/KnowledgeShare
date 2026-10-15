@@ -1,7 +1,7 @@
 ---
 title: Robot Agents & Manipulation
 date: 2026-09-12 20:59:00.000000000 +08:00
-lastmod: 2026-09-16 20:05:00.000000000 +08:00
+lastmod: "2026-10-15T12:30:00+08:00"
 summary: 机器人智能体、代码策略与动作接口，以及机械臂、灵巧手操作和相关工具、数据与基准。
 tags:
 - Robot Agents & Manipulation

@@ -208,3 +208,42 @@ topics:
   - branching flows
   - variable-length generation
   - manifold flow matching
+
+- slug: spatial-intelligence
+  title: "Spatial Intelligence"
+  description: "三维感知、场景重建、空间表征及场景运动理解与生成。"
+  semantic_scope:
+  - "连续与流式三维重建"
+  - "三维场景表征与运动预测"
+  - "空间感知与推理"
+
+- slug: tools
+  title: "Tools"
+  description: "实用 AI 工具、创作平台与工作流资源。"
+  semantic_scope:
+  - "AI 设计与内容创作工具"
+  - "生产力工具与工作流平台"
+
+- slug: blogs
+  title: "Blogs"
+  description: "个人博客、长期写作与研究观点的来源入口。"
+  semantic_scope:
+  - "研究者与行业人物个人网站"
+  - "个人文章与观点合集"
+
+- slug: image-synthesis
+  title: "Image Synthesis"
+  description: "图像生成、编辑、渲染控制及视觉创作与交互展示案例。"
+  semantic_scope:
+  - "文生图与图像编辑"
+  - "颜色控制与文字渲染"
+  - "视觉生成 Harness 与动画创作"
+  - "图像驱动的交互可视化"
+
+- slug: rsi
+  title: "RSI"
+  description: "递归自我改进、AI 研发自动化及其能力增长与社会影响。"
+  semantic_scope:
+  - "AI 研发自动化"
+  - "递归自我改进与智能爆炸"
+  - "自我改进系统的治理与风险"
