@@ -220,3 +220,16 @@ topics:
       - camera parameters
       - cross-view generation
       - spatial intelligence
+
+  - slug: flow-matching
+    title: Flow Matching
+    description: 流匹配及其在离散、连续、流形和变长状态空间中的生成建模方法。
+    semantic_scope:
+      - 流匹配的通用理论与生成框架
+      - 离散、连续及流形空间上的流匹配
+      - 基于分裂与删除的变长生成过程
+    keywords:
+      - flow matching
+      - branching flows
+      - variable-length generation
+      - manifold flow matching
