@@ -3,7 +3,7 @@ title: "Code-as-Monitor"
 date: 2026-09-12T20:56:00+08:00
 lastmod: 2026-09-12T20:56:00+08:00
 summary: "让视觉语言模型生成约束检查程序，持续检测机器人执行故障。"
-tags: ["R4R-Auto-Eval", "Failure Detection", "Visual Programming"]
+tags: ["Close-loop Embodied", "Failure Detection", "Visual Programming"]
 website: "https://zhoues.github.io/Code-as-Monitor/"
 paper_title: "Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection"
 project_url: "https://zhoues.github.io/Code-as-Monitor/"

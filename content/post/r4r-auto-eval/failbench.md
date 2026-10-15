@@ -3,7 +3,7 @@ title: "FailBench"
 date: 2026-09-12T21:31:00+08:00
 lastmod: 2026-09-12T21:31:00+08:00
 summary: "检验视觉语言模型能否跨数据来源可靠判断机器人任务成败的基准。"
-tags: ["R4R-Auto-Eval", "Robot Failure Detection", "VLM Evaluation"]
+tags: ["Close-loop Embodied", "Robot Failure Detection", "VLM Evaluation"]
 website: "https://metric-ai-lab.github.io/failbench/"
 paper_title: "FailBench: How Reliable are VLMs at Judging Robot Task Success?"
 project_url: "https://metric-ai-lab.github.io/failbench/"

@@ -88,7 +88,7 @@ topics:
   - one-shot robot learning
   - human demonstration
 - slug: r4r-auto-eval
-  title: R4R-Auto-Eval
+  title: Close-loop Embodied
   description: 面向机器人策略与执行轨迹的自动化评测、过程审计、奖励建模和故障检测方法。
   semantic_scope:
   - 机器人执行过程的细粒度自动评测

@@ -3,7 +3,7 @@ title: "PRM-as-a-Judge"
 date: 2026-09-12T20:54:00+08:00
 lastmod: 2026-09-12T20:54:00+08:00
 summary: "用过程奖励模型为机器人执行轨迹提供细粒度、稠密的自动审计。"
-tags: ["R4R-Auto-Eval", "Process Reward Model", "Robot Evaluation"]
+tags: ["Close-loop Embodied", "Process Reward Model", "Robot Evaluation"]
 website: "https://prm-as-a-judge.github.io/index.html"
 paper_title: "PRM-as-a-Judge: A Dense Evaluation Paradigm for Fine-Grained Robotic Auditing"
 project_url: "https://prm-as-a-judge.github.io/index.html"
