@@ -1,13 +1,16 @@
 ---
-title: "Camera Trajectory Understanding"
-date: 2026-09-12T20:57:00+08:00
-lastmod: 2026-09-12T20:58:00+08:00
-summary: "视频中的相机运动、位姿、轨迹标注、识别与评测。"
-tags: ["Camera Motion", "Camera Pose", "Video Understanding"]
+title: Camera Trajectory Understanding
+date: 2026-09-12 20:57:00.000000000 +08:00
+lastmod: 2026-09-21 12:54:00.000000000 +08:00
+summary: 相机运动、位姿与轨迹的理解、标注和评测，以及相机参数驱动的视角可控生成。
+tags:
+- Camera Trajectory Understanding
 topic: true
-topic_id: "camera-trajectory-understanding"
-layout: "topic"
+topic_id: camera-trajectory-understanding
+layout: topic
 draft: false
+aliases:
+- "/post/camera-centric-generation/"
 ---
 
-视频中的相机运动、位姿、轨迹标注、识别与评测。
+相机运动、位姿与轨迹的理解、标注和评测，以及相机参数驱动的视角可控生成。

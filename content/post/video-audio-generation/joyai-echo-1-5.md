@@ -1,20 +1,26 @@
 ---
-title: "JoyAI-Echo-1.5"
-date: 2026-09-12T21:34:00+08:00
-lastmod: 2026-09-12T21:34:00+08:00
-summary: "以跨镜头记忆维持角色外观和声音一致性的长时序音视频生成系统。"
-tags: ["Video & Audio Generation", "Audio-Video Generation", "Long-Horizon Generation", "Cross-Shot Memory"]
-website: "https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/long-video/"
-paper_title: "Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds"
-project_url: "https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/long-video/"
-paper_url: "https://arxiv.org/abs/2608.23383"
-code_url: "https://github.com/jd-opensource/JoyAI-Echo"
-model_url: "https://huggingface.co/jdopensource/JoyAI-Echo"
-thumbnail: "images/audio-video-generation/joyai-echo-1-5-poster.png"
-thumbnail_alt: "JoyAI-Echo-1.5 GitHub 项目预览"
-thumbnail_caption: "JoyAI-Echo-1.5 官方 GitHub 仓库预览"
-thumbnail_source: "https://github.com/jd-opensource/JoyAI-Echo"
-aliases: ["/post/audio-video-generation/joyai-echo-1-5/"]
+title: JoyAI-Echo-1.5
+date: 2026-09-12 21:34:00.000000000 +08:00
+lastmod: 2026-09-12 21:34:00.000000000 +08:00
+summary: 以跨镜头记忆维持角色外观和声音一致性的长时序音视频生成系统。
+tags:
+- Video & Audio
+- Audio-Video Generation
+- Long-Horizon Generation
+- Cross-Shot Memory
+website: https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/long-video/
+paper_title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive
+  Worlds
+project_url: https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/long-video/
+paper_url: https://arxiv.org/abs/2608.23383
+code_url: https://github.com/jd-opensource/JoyAI-Echo
+model_url: https://huggingface.co/jdopensource/JoyAI-Echo
+thumbnail: images/audio-video-generation/joyai-echo-1-5-poster.png
+thumbnail_alt: JoyAI-Echo-1.5 GitHub 项目预览
+thumbnail_caption: JoyAI-Echo-1.5 官方 GitHub 仓库预览
+thumbnail_source: https://github.com/jd-opensource/JoyAI-Echo
+aliases:
+- "/post/audio-video-generation/joyai-echo-1-5/"
 draft: false
 ---
 

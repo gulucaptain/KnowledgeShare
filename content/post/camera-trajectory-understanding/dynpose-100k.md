@@ -1,17 +1,20 @@
 ---
-title: "DynPose-100K"
-date: 2026-09-12T20:57:00+08:00
-lastmod: 2026-09-12T20:57:00+08:00
-summary: "面向动态互联网视频的大规模相机位姿数据集与自动标注流程。"
-tags: ["Camera Trajectory Understanding", "Camera Pose", "Dataset"]
-website: "https://research.nvidia.com/labs/cosmos-lab/dynpose-100k/"
-paper_title: "Dynamic Camera Poses and Where to Find Them"
-project_url: "https://research.nvidia.com/labs/cosmos-lab/dynpose-100k/"
-paper_url: "https://arxiv.org/abs/2504.17788"
-thumbnail: "images/camera-trajectory-understanding/dynpose-collection.jpg"
-thumbnail_alt: "DynPose-100K 动态视频采集流程"
-thumbnail_caption: "DynPose-100K 官方数据采集流程图"
-thumbnail_source: "https://research.nvidia.com/labs/cosmos-lab/dynpose-100k/assets/collection1.jpg"
+title: DynPose-100K
+date: 2026-09-12 20:57:00.000000000 +08:00
+lastmod: 2026-09-12 20:57:00.000000000 +08:00
+summary: 面向动态互联网视频的大规模相机位姿数据集与自动标注流程。
+tags:
+- Camera Trajectory Understanding
+- Camera Pose
+- Dataset
+website: https://research.nvidia.com/labs/cosmos-lab/dynpose-100k/
+paper_title: Dynamic Camera Poses and Where to Find Them
+project_url: https://research.nvidia.com/labs/cosmos-lab/dynpose-100k/
+paper_url: https://arxiv.org/abs/2504.17788
+thumbnail: images/camera-trajectory-understanding/dynpose-collection.jpg
+thumbnail_alt: DynPose-100K 动态视频采集流程
+thumbnail_caption: DynPose-100K 官方数据采集流程图
+thumbnail_source: https://research.nvidia.com/labs/cosmos-lab/dynpose-100k/assets/collection1.jpg
 draft: false
 ---
 

@@ -1,15 +1,18 @@
 ---
-title: "Skild Omni-Bodied：本体受限时的运动适应"
-date: 2026-09-17T11:20:00+08:00
-lastmod: 2026-09-17T11:20:00+08:00
-summary: "Skild AI 展示机器狗在关节锁定、肢体变化和轮子卡住时，通过调整步态继续运动的表现。"
-tags: ["Embodied AI ICL", "Robot Locomotion", "Cross-Embodiment"]
-website: "https://www.skild.ai/blogs/omni-bodied"
-project_url: "https://www.skild.ai/blogs/omni-bodied"
-thumbnail: "images/embodied-ai-icl/skild-omni-bodied.png"
-thumbnail_alt: "Skild 官网展示不同机器人本体、加装高跷和腿部受限机器狗的六格拼图"
-thumbnail_caption: "Skild Omni-Bodied · 官方演示拼图"
-thumbnail_source: "https://www.skild.ai/_next/static/media/locoformer.fe908b66.png"
+title: Skild Omni-Bodied：本体受限时的运动适应
+date: 2026-09-17 11:20:00.000000000 +08:00
+lastmod: 2026-09-17 11:20:00.000000000 +08:00
+summary: Skild AI 展示机器狗在关节锁定、肢体变化和轮子卡住时，通过调整步态继续运动的表现。
+tags:
+- In-Context Learning
+- Robot Locomotion
+- Cross-Embodiment
+website: https://www.skild.ai/blogs/omni-bodied
+project_url: https://www.skild.ai/blogs/omni-bodied
+thumbnail: images/embodied-ai-icl/skild-omni-bodied.png
+thumbnail_alt: Skild 官网展示不同机器人本体、加装高跷和腿部受限机器狗的六格拼图
+thumbnail_caption: Skild Omni-Bodied · 官方演示拼图
+thumbnail_source: https://www.skild.ai/_next/static/media/locoformer.fe908b66.png
 draft: false
 ---
 

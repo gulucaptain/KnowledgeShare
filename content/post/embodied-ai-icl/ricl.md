@@ -1,18 +1,22 @@
 ---
-title: "RICL"
-date: "2026-09-23T17:33:00+08:00"
-lastmod: "2026-09-23T17:33:00+08:00"
-paper_title: "RICL: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action Models"
-summary: "通过后训练和检索增强上下文学习，让预训练 VLA 在不更新目标任务参数的情况下利用少量机器人演示适配新操作任务。"
-tags: ["Embodied AI ICL", "Vision-Language-Action", "Robot Manipulation"]
-website: "https://ricl-vla.github.io/"
-project_url: "https://ricl-vla.github.io/"
-paper_url: "https://arxiv.org/abs/2508.02062"
-code_url: "https://github.com/ricl-vla/ricl_openpi"
-thumbnail: "images/embodied-ai-icl/ricl-pi0-architecture.png"
-thumbnail_alt: "RICL-π₀-FAST 的架构图，展示查询观测、检索到的演示片段与动作插值层如何共同预测机器人动作"
-thumbnail_caption: "RICL 论文 Figure 2：RICL-π₀-FAST 架构"
-thumbnail_source: "https://arxiv.org/html/2508.02062v1/regentic-pi0-arch.png"
+title: RICL
+date: '2026-09-23T17:33:00+08:00'
+lastmod: '2026-09-23T17:33:00+08:00'
+paper_title: 'RICL: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action
+  Models'
+summary: 通过后训练和检索增强上下文学习，让预训练 VLA 在不更新目标任务参数的情况下利用少量机器人演示适配新操作任务。
+tags:
+- In-Context Learning
+- Vision-Language-Action
+- Robot Manipulation
+website: https://ricl-vla.github.io/
+project_url: https://ricl-vla.github.io/
+paper_url: https://arxiv.org/abs/2508.02062
+code_url: https://github.com/ricl-vla/ricl_openpi
+thumbnail: images/embodied-ai-icl/ricl-pi0-architecture.png
+thumbnail_alt: RICL-π₀-FAST 的架构图，展示查询观测、检索到的演示片段与动作插值层如何共同预测机器人动作
+thumbnail_caption: RICL 论文 Figure 2：RICL-π₀-FAST 架构
+thumbnail_source: https://arxiv.org/html/2508.02062v1/regentic-pi0-arch.png
 draft: false
 ---
 

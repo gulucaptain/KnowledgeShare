@@ -1,19 +1,22 @@
 ---
-title: "CameraBench"
-date: 2026-09-12T20:58:00+08:00
-lastmod: 2026-09-12T20:58:00+08:00
-summary: "以相机运动分类和描述为核心的视频理解数据集与评测基准。"
-tags: ["Camera Trajectory Understanding", "Camera Motion", "Benchmark"]
-website: "https://linzhiqiu.github.io/papers/camerabench/"
-paper_title: "Towards Understanding Camera Motions in Any Video"
-project_url: "https://linzhiqiu.github.io/papers/camerabench/"
-paper_url: "https://arxiv.org/abs/2504.15376"
-code_url: "https://github.com/sy77777en/CameraBench"
-model_url: "https://huggingface.co/datasets/syCen/CameraBench"
-thumbnail: "images/camera-trajectory-understanding/camerabench-taxonomy.jpg"
-thumbnail_alt: "CameraBench 相机运动分类体系"
-thumbnail_caption: "CameraBench 官方相机运动分类图"
-thumbnail_source: "https://linzhiqiu.github.io/papers/camerabench/images/taxonomy_design.jpg"
+title: CameraBench
+date: 2026-09-12 20:58:00.000000000 +08:00
+lastmod: 2026-09-12 20:58:00.000000000 +08:00
+summary: 以相机运动分类和描述为核心的视频理解数据集与评测基准。
+tags:
+- Camera Trajectory Understanding
+- Camera Motion
+- Benchmark
+website: https://linzhiqiu.github.io/papers/camerabench/
+paper_title: Towards Understanding Camera Motions in Any Video
+project_url: https://linzhiqiu.github.io/papers/camerabench/
+paper_url: https://arxiv.org/abs/2504.15376
+code_url: https://github.com/sy77777en/CameraBench
+model_url: https://huggingface.co/datasets/syCen/CameraBench
+thumbnail: images/camera-trajectory-understanding/camerabench-taxonomy.jpg
+thumbnail_alt: CameraBench 相机运动分类体系
+thumbnail_caption: CameraBench 官方相机运动分类图
+thumbnail_source: https://linzhiqiu.github.io/papers/camerabench/images/taxonomy_design.jpg
 draft: false
 ---
 

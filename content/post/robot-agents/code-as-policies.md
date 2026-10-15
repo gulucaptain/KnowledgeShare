@@ -1,19 +1,24 @@
 ---
-title: "Code as Policies"
-date: 2026-09-12T21:36:00+08:00
-lastmod: 2026-09-12T21:36:00+08:00
-summary: "让代码语言模型把自然语言指令直接转化为可执行机器人策略程序。"
-tags: ["Robot Agents", "Code-As-Policy", "Language Model Program", "Embodied Control"]
-website: "https://code-as-policies.github.io/"
-paper_title: "Code as Policies: Language Model Programs for Embodied Control"
-project_url: "https://code-as-policies.github.io/"
-paper_url: "https://arxiv.org/abs/2209.07753"
-code_url: "https://github.com/google-research/google-research/tree/master/code_as_policies"
-thumbnail: "images/code-as-policy/code-as-policies-share.png"
-thumbnail_alt: "Code as Policies 通过语言模型生成机器人策略代码"
-thumbnail_caption: "Code as Policies 官方项目展示图"
-thumbnail_source: "https://code-as-policies.github.io/img/share_image.png"
-aliases: ["/post/code-as-policy/code-as-policies/"]
+title: Code as Policies
+date: 2026-09-12 21:36:00.000000000 +08:00
+lastmod: 2026-09-12 21:36:00.000000000 +08:00
+summary: 让代码语言模型把自然语言指令直接转化为可执行机器人策略程序。
+tags:
+- Robot Agents & Manipulation
+- Code-As-Policy
+- Language Model Program
+- Embodied Control
+website: https://code-as-policies.github.io/
+paper_title: 'Code as Policies: Language Model Programs for Embodied Control'
+project_url: https://code-as-policies.github.io/
+paper_url: https://arxiv.org/abs/2209.07753
+code_url: https://github.com/google-research/google-research/tree/master/code_as_policies
+thumbnail: images/code-as-policy/code-as-policies-share.png
+thumbnail_alt: Code as Policies 通过语言模型生成机器人策略代码
+thumbnail_caption: Code as Policies 官方项目展示图
+thumbnail_source: https://code-as-policies.github.io/img/share_image.png
+aliases:
+- "/post/code-as-policy/code-as-policies/"
 draft: false
 ---
 

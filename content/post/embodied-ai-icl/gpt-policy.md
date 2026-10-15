@@ -1,18 +1,20 @@
 ---
-title: "GPT-Policy"
-date: "2026-09-19T13:45:00+08:00"
-lastmod: "2026-09-19T13:45:00+08:00"
-paper_title: "In-Context Robot Learning with VLM Agents"
-summary: "通过上下文编译、VLM 动作提议与受约束控制，在不更新参数的情况下利用演示与反馈完成机器人任务。"
-tags: ["Embodied AI ICL", "VLM Agents"]
-website: "https://cheng-haha.github.io/GPT-Policy/"
-project_url: "https://cheng-haha.github.io/GPT-Policy/"
-paper_url: "https://arxiv.org/abs/2609.19138"
-code_url: "https://github.com/cheng-haha/GPT-Policy"
-thumbnail: "images/embodied-ai-icl/gpt-policy-overview.png"
-thumbnail_alt: "GPT-Policy 将任务指令、当前观察、演示与交互历史组装为上下文，再由 VLM 提议并执行机器人工具动作"
-thumbnail_caption: "GPT-Policy 论文 Figure 2：框架概览"
-thumbnail_source: "https://arxiv.org/html/2609.19138v1/overview.png"
+title: GPT-Policy
+date: '2026-09-19T13:45:00+08:00'
+lastmod: '2026-09-19T13:45:00+08:00'
+paper_title: In-Context Robot Learning with VLM Agents
+summary: 通过上下文编译、VLM 动作提议与受约束控制，在不更新参数的情况下利用演示与反馈完成机器人任务。
+tags:
+- In-Context Learning
+- VLM Agents
+website: https://cheng-haha.github.io/GPT-Policy/
+project_url: https://cheng-haha.github.io/GPT-Policy/
+paper_url: https://arxiv.org/abs/2609.19138
+code_url: https://github.com/cheng-haha/GPT-Policy
+thumbnail: images/embodied-ai-icl/gpt-policy-overview.png
+thumbnail_alt: GPT-Policy 将任务指令、当前观察、演示与交互历史组装为上下文，再由 VLM 提议并执行机器人工具动作
+thumbnail_caption: GPT-Policy 论文 Figure 2：框架概览
+thumbnail_source: https://arxiv.org/html/2609.19138v1/overview.png
 draft: false
 ---
 

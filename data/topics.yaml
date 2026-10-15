@@ -1,235 +1,210 @@
+---
 topics:
-  - slug: wam
-    title: WAM
-    description: 世界—动作模型及其训练、推理、数据与评测方法，重点关注统一建模环境变化与机器人动作。
-    semantic_scope:
-      - World-Action Model
-      - 联合世界建模与动作生成
-      - 机器人视频预测与动作预测的统一模型
-    keywords:
-      - WAM
-      - world-action model
-      - action-conditioned world model
-      - robot action generation
-      - embodied AI
-
-  - slug: world-model
-    title: World Model
-    description: 通过预测未来状态、视觉表征或环境动态来支持规划与控制的世界模型，不要求同时生成动作。
-    semantic_scope:
-      - 潜空间世界模型
-      - 视觉动态预测
-      - 面向机器人规划的未来状态预测
-      - 多视角世界建模
-    keywords:
-      - world model
-      - latent planning
-      - future prediction
-      - cross-view modeling
-      - visual dynamics
-
-  - slug: video-audio-generation
-    title: Video & Audio Generation
-    description: 视频与音视频生成、参考条件控制、推理时优化，以及广告等应用中的生成方法。
-    semantic_scope:
-    - 原生音视频联合生成
-    - 音画同步生成
-    - 音频与视频跨模态建模
-    - 音视频生成后处理与精炼
-    - 视频生成中的上下文学习
-    - 参考视频驱动的运动与镜头迁移
-    - 无训练样本配对的视频重构与编辑
-    - 视频扩散模型的测试时噪声优化
-    - 奖励引导的潜变量与采样轨迹优化
-    - 无需更新生成模型参数的推理时增强
-    - 广告视频创意与生成
-    - 商品条件下的智能体视频生成
-    - 广告业务反馈驱动的策略优化
-    keywords:
-    - audio-video generation
-    - joint audio video
-    - synchronized audio
-    - video generation
-    - multimodal generation
-    - in-context generation
-    - motion transfer
-    - video reimagination
-    - reference video
-    - CameraNoise
-    - noise optimization
-    - test-time scaling
-    - latent optimization
-    - text-to-video generation
-    - advertising video generation
-    - agentic video generation
-    - product-conditioned generation
-    - business feedback
-
-  - slug: audio-video-evaluation
-    title: Audio-Video Evaluation
-    description: 音视频理解与生成系统的评测方法、数据集、基准和指标，关注视觉、音频与跨模态一致性。
-    semantic_scope:
-      - 音视频模型评测
-      - 音画理解与跨模态一致性评估
-      - 用于音视频评测的数据集与基准
-      - 音视频生成质量评估
-    keywords:
-      - audio-video evaluation
-      - audio visual benchmark
-      - video dataset
-      - multimodal evaluation
-      - audio visual understanding
-
-  - slug: embodied-ai-icl
-    title: Embodied AI ICL
-    description: 通过演示、视频或上下文提示，让具身模型在不更新参数或极少适配的情况下理解并执行新任务。
-    semantic_scope:
-      - 机器人模仿学习中的上下文学习
-      - 以人类或机器人演示作为任务提示
-      - 具身基础模型的单样本与少样本适配
-      - 开放任务上的上下文泛化
-    keywords:
-      - embodied AI
-      - in-context learning
-      - imitation learning
-      - one-shot robot learning
-      - human demonstration
-
-  - slug: r4r-auto-eval
-    title: R4R-Auto-Eval
-    description: 面向机器人策略与执行轨迹的自动化评测、过程审计、奖励建模和故障检测方法。
-    semantic_scope:
-      - 机器人执行过程的细粒度自动评测
-      - 过程奖励模型与轨迹审计
-      - 机器人故障检测和执行监控
-      - 基于视觉或程序的机器人评测
-    keywords:
-      - robot auto evaluation
-      - robotic auditing
-      - process reward model
-      - failure detection
-      - execution monitoring
-
-  - slug: camera-trajectory-understanding
-    title: Camera Trajectory Understanding
-    description: 视频中的相机运动、相机位姿、轨迹标注、识别与评测相关的数据和方法。
-    semantic_scope:
-      - 动态视频的相机位姿估计
-      - 相机运动分类、描述与理解
-      - 相机轨迹数据集与评测基准
-    keywords:
-      - camera trajectory
-      - camera motion
-      - camera pose
-      - structure from motion
-      - video understanding
-
-  - slug: robot-agents
-    title: Robot Agents
-    description: 通过代码策略、语义动作接口和执行框架，将通用模型连接到机器人感知、决策与控制。
-    semantic_scope:
-    - 语言模型生成机器人控制程序
-    - 代码作为机器人策略或动作接口
-    - 具身智能的可执行评测框架
-    - 通用模型到机器人动作空间的适配层
-    - 具身模型的动作接口与控制支架
-    - 跨机器人本体的语义动作表达
-    keywords:
-    - code as policy
-    - robot code generation
-    - physical AI evaluation
-    - executable policy
-    - robot agent
-    - embodied harness
-    - VLM robot control
-    - action interface
-    - embodiment adapter
-    - robot foundation model
-
-  - slug: robot-manipulation
-    title: Robot Manipulation
-    description: 机械臂与灵巧手操作，涵盖运动学控制、双手协同、视触觉学习及操作数据与基准。
-    semantic_scope:
-    - 机械臂逆运动学与末端执行器控制
-    - 从任务空间目标到关节速度或构型的求解
-    - 多任务与运动约束下的机器人操作控制
-    - 面向操作执行的运动学与优化工具
-    - 多指灵巧手与双手协同操作
-    - 视觉与触觉融合的灵巧操作学习
-    - 跨灵巧手本体的数据与仿真基准
-    keywords:
-    - robot manipulation
-    - inverse kinematics
-    - end-effector control
-    - motion control
-    - quadratic programming
-    - dexterous manipulation
-    - dexterous hand
-    - visuo-tactile
-    - bimanual manipulation
-    - cross-embodiment benchmark
-
-  - slug: reinforcement-learning
-    title: Reinforcement Learning
-    description: 强化学习的策略优化、奖励学习与生成式策略训练，涵盖连续控制和通用算法方法。
-    semantic_scope:
-      - 策略梯度与同策略或离策略优化
-      - 扩散和流模型的强化学习策略
-      - 奖励驱动的策略学习与连续控制
-    keywords:
-      - reinforcement learning
-      - policy optimization
-      - policy gradient
-      - flow matching
-      - diffusion policy
-
-  - slug: ai-economics
-    title: AI Economics
-    description: 研究 AI 对经济增长、就业、工资与收入分配的影响。
-    semantic_scope:
-      - AI 与劳动市场
-      - 自动化、任务增强及收入分配
-      - AI 经济情景建模
-
-  - slug: agent-harness
-    title: Agent Harness
-    description: 通用智能体的运行框架、上下文管理、工具执行及自我改进方法。
-    semantic_scope:
-      - 智能体工作流与持久化状态
-      - 上下文工程与评估反馈
-      - Harness 优化及自我改进
-
-  - slug: stochastic-processes
-    title: Stochastic Processes
-    description: 随机过程、随机微分方程、随机流及其对偶理论。
-    semantic_scope:
-      - 白噪声驱动的随机微分方程
-      - 随机流的存在唯一性与正则性
-      - 随机过程的对偶与自对偶
-
-  - slug: camera-centric-generation
-    title: Camera-Centric Generation
-    description: 以相机参数、视角和摄影语言为控制条件的视觉理解与生成方法。
-    semantic_scope:
-      - 图像生成中的相机视角与构图控制
-      - 相机参数理解与跨视角生成
-      - 面向空间想象和世界探索的相机条件模型
-    keywords:
-      - camera-centric generation
-      - viewpoint control
-      - camera parameters
-      - cross-view generation
-      - spatial intelligence
-
-  - slug: flow-matching
-    title: Flow Matching
-    description: 流匹配及其在离散、连续、流形和变长状态空间中的生成建模方法。
-    semantic_scope:
-      - 流匹配的通用理论与生成框架
-      - 离散、连续及流形空间上的流匹配
-      - 基于分裂与删除的变长生成过程
-    keywords:
-      - flow matching
-      - branching flows
-      - variable-length generation
-      - manifold flow matching
+- slug: wam
+  title: WAM
+  description: 世界—动作模型及其训练、推理、数据与评测方法，重点关注统一建模环境变化与机器人动作。
+  semantic_scope:
+  - World-Action Model
+  - 联合世界建模与动作生成
+  - 机器人视频预测与动作预测的统一模型
+  keywords:
+  - WAM
+  - world-action model
+  - action-conditioned world model
+  - robot action generation
+  - embodied AI
+- slug: world-model
+  title: World Model
+  description: 通过预测未来状态、视觉表征或环境动态来支持规划与控制的世界模型，不要求同时生成动作。
+  semantic_scope:
+  - 潜空间世界模型
+  - 视觉动态预测
+  - 面向机器人规划的未来状态预测
+  - 多视角世界建模
+  keywords:
+  - world model
+  - latent planning
+  - future prediction
+  - cross-view modeling
+  - visual dynamics
+- slug: video-audio-generation
+  title: Video & Audio
+  description: 视频与音视频生成、理解、评测方法，以及相关数据集和应用。
+  semantic_scope:
+  - 原生音视频联合生成
+  - 音画同步生成
+  - 音频与视频跨模态建模
+  - 音视频生成后处理与精炼
+  - 视频生成中的上下文学习
+  - 参考视频驱动的运动与镜头迁移
+  - 无训练样本配对的视频重构与编辑
+  - 视频扩散模型的测试时噪声优化
+  - 奖励引导的潜变量与采样轨迹优化
+  - 无需更新生成模型参数的推理时增强
+  - 广告视频创意与生成
+  - 商品条件下的智能体视频生成
+  - 广告业务反馈驱动的策略优化
+  - 音视频模型评测
+  - 音画理解与跨模态一致性评估
+  - 用于音视频评测的数据集与基准
+  - 音视频生成质量评估
+  keywords:
+  - audio-video generation
+  - joint audio video
+  - synchronized audio
+  - video generation
+  - multimodal generation
+  - in-context generation
+  - motion transfer
+  - video reimagination
+  - reference video
+  - CameraNoise
+  - noise optimization
+  - test-time scaling
+  - latent optimization
+  - text-to-video generation
+  - advertising video generation
+  - agentic video generation
+  - product-conditioned generation
+  - business feedback
+  - audio-video evaluation
+  - audio visual benchmark
+  - video dataset
+  - multimodal evaluation
+  - audio visual understanding
+- slug: embodied-ai-icl
+  title: In-Context Learning
+  description: 利用演示、上下文提示与交互经验适配新任务的上下文学习方法，涵盖具身智能等应用。
+  semantic_scope:
+  - 机器人模仿学习中的上下文学习
+  - 以人类或机器人演示作为任务提示
+  - 具身基础模型的单样本与少样本适配
+  - 开放任务上的上下文泛化
+  - 通用模型的上下文学习与基于演示的任务适配
+  keywords:
+  - embodied AI
+  - in-context learning
+  - imitation learning
+  - one-shot robot learning
+  - human demonstration
+- slug: r4r-auto-eval
+  title: R4R-Auto-Eval
+  description: 面向机器人策略与执行轨迹的自动化评测、过程审计、奖励建模和故障检测方法。
+  semantic_scope:
+  - 机器人执行过程的细粒度自动评测
+  - 过程奖励模型与轨迹审计
+  - 机器人故障检测和执行监控
+  - 基于视觉或程序的机器人评测
+  keywords:
+  - robot auto evaluation
+  - robotic auditing
+  - process reward model
+  - failure detection
+  - execution monitoring
+- slug: camera-trajectory-understanding
+  title: Camera Trajectory Understanding
+  description: 相机运动、位姿与轨迹的理解、标注和评测，以及相机参数驱动的视角可控生成。
+  semantic_scope:
+  - 动态视频的相机位姿估计
+  - 相机运动分类、描述与理解
+  - 相机轨迹数据集与评测基准
+  - 图像生成中的相机视角与构图控制
+  - 相机参数理解与跨视角生成
+  - 面向空间想象和世界探索的相机条件模型
+  keywords:
+  - camera trajectory
+  - camera motion
+  - camera pose
+  - structure from motion
+  - video understanding
+  - camera-centric generation
+  - viewpoint control
+  - camera parameters
+  - cross-view generation
+  - spatial intelligence
+- slug: robot-agents
+  title: Robot Agents & Manipulation
+  description: 机器人智能体、代码策略与动作接口，以及机械臂、灵巧手操作和相关工具、数据与基准。
+  semantic_scope:
+  - 语言模型生成机器人控制程序
+  - 代码作为机器人策略或动作接口
+  - 具身智能的可执行评测框架
+  - 通用模型到机器人动作空间的适配层
+  - 具身模型的动作接口与控制支架
+  - 跨机器人本体的语义动作表达
+  - 机械臂逆运动学与末端执行器控制
+  - 从任务空间目标到关节速度或构型的求解
+  - 多任务与运动约束下的机器人操作控制
+  - 面向操作执行的运动学与优化工具
+  - 多指灵巧手与双手协同操作
+  - 视觉与触觉融合的灵巧操作学习
+  - 跨灵巧手本体的数据与仿真基准
+  keywords:
+  - code as policy
+  - robot code generation
+  - physical AI evaluation
+  - executable policy
+  - robot agent
+  - embodied harness
+  - VLM robot control
+  - action interface
+  - embodiment adapter
+  - robot foundation model
+  - robot manipulation
+  - inverse kinematics
+  - end-effector control
+  - motion control
+  - quadratic programming
+  - dexterous manipulation
+  - dexterous hand
+  - visuo-tactile
+  - bimanual manipulation
+  - cross-embodiment benchmark
+- slug: reinforcement-learning
+  title: Reinforcement Learning
+  description: 强化学习的策略优化、奖励学习与生成式策略训练，涵盖连续控制和通用算法方法。
+  semantic_scope:
+  - 策略梯度与同策略或离策略优化
+  - 扩散和流模型的强化学习策略
+  - 奖励驱动的策略学习与连续控制
+  keywords:
+  - reinforcement learning
+  - policy optimization
+  - policy gradient
+  - flow matching
+  - diffusion policy
+- slug: ai-economics
+  title: AI News
+  description: AI 领域动态、行业观察及其经济与社会影响。
+  semantic_scope:
+  - AI 与劳动市场
+  - 自动化、任务增强及收入分配
+  - AI 经济情景建模
+  - AI 行业动态与技术进展
+  - AI 的社会影响与趋势观察
+- slug: agent-harness
+  title: Agent Harness
+  description: 通用智能体的运行框架、上下文管理、工具执行及自我改进方法。
+  semantic_scope:
+  - 智能体工作流与持久化状态
+  - 上下文工程与评估反馈
+  - Harness 优化及自我改进
+- slug: stochastic-processes
+  title: Stochastic Processes
+  description: 随机过程、随机微分方程、随机流及其对偶理论。
+  semantic_scope:
+  - 白噪声驱动的随机微分方程
+  - 随机流的存在唯一性与正则性
+  - 随机过程的对偶与自对偶
+- slug: flow-matching
+  title: Flow Matching
+  description: 流匹配及其在离散、连续、流形和变长状态空间中的生成建模方法。
+  semantic_scope:
+  - 流匹配的通用理论与生成框架
+  - 离散、连续及流形空间上的流匹配
+  - 基于分裂与删除的变长生成过程
+  keywords:
+  - flow matching
+  - branching flows
+  - variable-length generation
+  - manifold flow matching

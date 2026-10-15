@@ -1,11 +1,13 @@
 ---
-title: "Anthropic：我们的经济未来会是什么样？"
-date: "2026-09-19T13:45:00+08:00"
-lastmod: "2026-09-19T13:45:00+08:00"
-summary: "通过 AI 能力、采用与任务变化的不同假设，探索增长、就业和分配的可能路径。"
-tags: ["AI Economics", "Economic Scenarios"]
-website: "https://www.anthropic.com/institute/econ-scenarios"
-project_url: "https://www.anthropic.com/institute/econ-scenarios"
+title: Anthropic：我们的经济未来会是什么样？
+date: '2026-09-19T13:45:00+08:00'
+lastmod: '2026-09-19T13:45:00+08:00'
+summary: 通过 AI 能力、采用与任务变化的不同假设，探索增长、就业和分配的可能路径。
+tags:
+- AI News
+- Economic Scenarios
+website: https://www.anthropic.com/institute/econ-scenarios
+project_url: https://www.anthropic.com/institute/econ-scenarios
 draft: false
 ---
 

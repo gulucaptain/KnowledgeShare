@@ -1,13 +1,14 @@
 ---
-title: "Embodied AI ICL"
-date: 2026-09-12T20:51:00+08:00
-lastmod: 2026-09-23T17:33:00+08:00
-summary: "通过演示和上下文提示，让具身模型快速理解并执行新任务。"
-tags: ["Embodied AI", "In-Context Learning", "Robot Learning"]
+title: In-Context Learning
+date: 2026-09-12 20:51:00.000000000 +08:00
+lastmod: '2026-09-23T17:33:00+08:00'
+summary: 利用演示、上下文提示与交互经验适配新任务的上下文学习方法，涵盖具身智能等应用。
+tags:
+- In-Context Learning
 topic: true
-topic_id: "embodied-ai-icl"
-layout: "topic"
+topic_id: embodied-ai-icl
+layout: topic
 draft: false
 ---
 
-通过演示和上下文提示，让具身模型快速理解并执行新任务。
+利用演示、上下文提示与交互经验适配新任务的上下文学习方法，涵盖具身智能等应用。
