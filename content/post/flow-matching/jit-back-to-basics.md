@@ -1,4 +1,5 @@
 ---
+paper_acronym: "JiT"
 title: "JiT"
 paper_title: "Back to Basics: Let Denoising Generative Models Denoise"
 date: "2026-10-27T11:29:00+08:00"

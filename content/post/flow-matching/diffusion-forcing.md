@@ -1,4 +1,5 @@
 ---
+paper_acronym: "Diffusion Forcing"
 title: "Diffusion Forcing"
 paper_title: "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion"
 date: "2026-10-27T11:29:00+08:00"

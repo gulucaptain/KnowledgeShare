@@ -1,4 +1,5 @@
 ---
+paper_acronym: "RoboSimStudio"
 title: "RoboSimStudio"
 paper_title: "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks"
 date: "2026-10-27T11:29:00+08:00"

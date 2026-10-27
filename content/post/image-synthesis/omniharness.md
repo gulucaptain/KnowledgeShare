@@ -1,4 +1,5 @@
 ---
+paper_acronym: "OmniHarness"
 title: "OmniHarness"
 date: "2026-10-15T12:30:00+08:00"
 lastmod: "2026-10-15T12:30:00+08:00"

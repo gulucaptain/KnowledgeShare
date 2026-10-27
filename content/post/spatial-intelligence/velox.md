@@ -1,4 +1,5 @@
 ---
+paper_acronym: "Velox"
 title: "Velox"
 paper_title: "Velox: Spatial Memory Makes World Models Efficient"
 date: "2026-10-27T11:29:00+08:00"

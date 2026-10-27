@@ -1,4 +1,5 @@
 ---
+paper_acronym: "Patch Forcing"
 title: "Patch Forcing"
 paper_title: "Denoising, Fast and Slow: Difficulty-Aware Adaptive Sampling for Image Generation"
 date: "2026-10-17T13:23:00+08:00"

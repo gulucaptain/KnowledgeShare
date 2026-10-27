@@ -1,4 +1,5 @@
 ---
+paper_acronym: "DK-VLM"
 title: "DK-VLM"
 paper_title: "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models"
 date: "2026-10-27T11:29:00+08:00"

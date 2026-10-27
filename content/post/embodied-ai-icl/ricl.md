@@ -1,4 +1,5 @@
 ---
+paper_acronym: "RICL"
 title: RICL
 date: '2026-09-23T17:33:00+08:00'
 lastmod: '2026-09-23T17:33:00+08:00'

@@ -1,4 +1,5 @@
 ---
+paper_acronym: "MECo-WAM"
 title: "MECo-WAM"
 paper_title: "Learning 4D Geometric Priors for Inference-Efficient World Action Models"
 date: "2026-10-27T11:29:00+08:00"

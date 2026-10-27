@@ -1,4 +1,5 @@
 ---
+paper_acronym: "Rectified Flow"
 title: "Rectified Flow"
 date: "2026-10-15T12:30:00+08:00"
 lastmod: "2026-10-15T12:30:00+08:00"

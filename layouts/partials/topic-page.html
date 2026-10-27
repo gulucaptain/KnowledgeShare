@@ -58,7 +58,7 @@
           <div class="topic-entries">
             {{- range $paginator.Pages }}
             <article class="topic-entry markdown-body entry-content" id="{{ .Title | anchorize }}">
-              {{- $displayTitle := .Params.paper_title | default .Title }}
+              {{- $displayTitle := partial "entry-display-title.html" . }}
               <h2 class="topic-entry-title"><a href="{{ .Permalink }}">{{ $displayTitle }}</a></h2>
               <div class="topic-entry-meta f6 text-gray">
                 {{- if .Params.paper_title }}<strong>{{ .Title }}</strong> · {{ end }}

@@ -1,4 +1,5 @@
 ---
+paper_acronym: "HALTER"
 title: "HALTER"
 paper_title: "From Rollout to Reset: A Graph-Based Harness for Autonomous Long-Horizon Manipulation Evaluation"
 date: "2026-10-27T11:29:00+08:00"

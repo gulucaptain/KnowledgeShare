@@ -1,4 +1,5 @@
 ---
+paper_acronym: "DREAMSTEER"
 title: "DREAMSTEER"
 paper_title: "DREAMSTEER: Latent World Models Can Steer VLA Policies During Deployment Without Any Finetuning"
 date: "2026-10-27T11:29:00+08:00"

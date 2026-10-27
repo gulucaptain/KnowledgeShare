@@ -1,4 +1,5 @@
 ---
+paper_acronym: "CamTrol++"
 title: "CamTrol++"
 date: "2026-10-15T12:30:00+08:00"
 lastmod: "2026-10-27T11:29:00+08:00"

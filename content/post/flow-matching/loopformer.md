@@ -1,4 +1,5 @@
 ---
+paper_acronym: "LoopFormer"
 title: "LoopFormer"
 paper_title: "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation"
 date: "2026-10-27T11:29:00+08:00"

@@ -1,4 +1,5 @@
 ---
+paper_acronym: "AGP"
 title: "Agent as Policy（AGP）"
 paper_title: "Agent as Policy for Robotic Manipulation"
 date: "2026-10-27T11:29:00+08:00"

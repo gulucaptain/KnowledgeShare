@@ -1,4 +1,5 @@
 ---
+paper_acronym: "FlashRender"
 title: "FlashRender"
 paper_title: "FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow"
 date: "2026-10-27T11:29:00+08:00"

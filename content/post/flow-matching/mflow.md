@@ -1,4 +1,5 @@
 ---
+paper_acronym: "MFlow"
 title: "MFlow"
 paper_title: "Rethinking the Design Space of Vanilla Pixel Diffusion Transformers"
 date: "2026-10-27T11:29:00+08:00"

@@ -1,4 +1,5 @@
 ---
+paper_acronym: "MOSS"
 title: "MOSS"
 paper_title: "MOSS: Mode-Oriented Source Shaping for Robot Flow Matching Policies"
 date: "2026-10-17T15:30:00+08:00"

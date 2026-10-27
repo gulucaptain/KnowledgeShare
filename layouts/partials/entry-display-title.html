@@ -1,0 +1,7 @@
+{{- $title := .Params.paper_title | default .Title -}}
+{{- with .Params.paper_acronym -}}
+  {{- if not (hasPrefix (lower $title) (lower .)) -}}
+    {{- $title = printf "(%s): %s" . $title -}}
+  {{- end -}}
+{{- end -}}
+{{- return $title -}}

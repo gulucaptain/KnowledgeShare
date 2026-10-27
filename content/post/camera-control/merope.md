@@ -1,4 +1,5 @@
 ---
+paper_acronym: "MeRoPE"
 title: "MeRoPE"
 paper_title: "MeRoPE: Metric Rotary Position Embedding for Camera-Controlled Video Generation"
 date: "2026-10-27T11:29:00+08:00"

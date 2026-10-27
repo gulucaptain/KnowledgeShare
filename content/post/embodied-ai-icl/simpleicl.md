@@ -1,4 +1,5 @@
 ---
+paper_acronym: "SimpleICL"
 title: "SimpleICL"
 paper_title: "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks"
 date: "2026-10-27T11:29:00+08:00"

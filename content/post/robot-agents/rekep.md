@@ -1,4 +1,5 @@
 ---
+paper_acronym: "ReKep"
 title: "ReKep"
 date: "2026-10-15T12:30:00+08:00"
 lastmod: "2026-10-15T12:30:00+08:00"

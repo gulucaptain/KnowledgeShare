@@ -1,4 +1,5 @@
 ---
+paper_acronym: "ThinkAct"
 title: "ThinkAct"
 paper_title: "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning"
 date: "2026-10-27T11:29:00+08:00"
