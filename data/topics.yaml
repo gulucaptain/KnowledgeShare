@@ -247,3 +247,19 @@ topics:
   - "AI 研发自动化"
   - "递归自我改进与智能爆炸"
   - "自我改进系统的治理与风险"
+
+- slug: camera-control
+  title: "Camera Control"
+  description: "相机轨迹、位姿与视角条件下的可控图像、视频和新视角生成。"
+  semantic_scope:
+  - "相机可控视频生成"
+  - "新视角合成与生成式渲染"
+  - "相机条件的位置编码与少步采样"
+
+- slug: data-driven
+  title: "Data-Driven"
+  description: "以数据构造、合成、质量与分布设计驱动模型能力和泛化的研究。"
+  semantic_scope:
+  - "合成数据与真实数据迁移"
+  - "域随机化与数据分布设计"
+  - "数据因素对机器人泛化的实证研究"
